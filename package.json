@@ -2,6 +2,7 @@
   "name": "@edilando/eslint-config",
   "version": "1.0.4",
   "description": "Configuração personalizada do ESLint para projetos JavaScript e TypeScript.",
+  "author": "Edilando Saturnino <contato@edilando.com>",
   "main": "index.js",
   "scripts": {
     "postinstall": "node postinstall.js"
@@ -22,9 +23,8 @@
     "linting",
     "code quality"
   ],
-  "author": "Edilando Saturnino <contato@edilando.com>",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
@@ -38,5 +38,14 @@
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
     "eslint-plugin-react": "^7.33.2"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": ">=5"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
   }
 }
