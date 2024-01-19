@@ -21,7 +21,7 @@ Para incorporar esta configuração do ESLint ao seu projeto, siga estes passos:
 2. Após a instalação, o arquivo `.eslintrc.cjs` é automaticamente copiado para a raiz do seu projeto.
 
 ## Dependências
-O pacote requer as seguintes bibliotecas:
+O pacote contem as seguintes bibliotecas:
 - eslint
 - eslint-config-prettier
 - eslint-config-standard
@@ -35,8 +35,6 @@ O pacote requer as seguintes bibliotecas:
 - @typescript-eslint/eslint-plugin
 - @typescript-eslint/parser
 - eslint-plugin-react
-
-Assegure-se de tê-las instaladas no seu projeto.
 
 ## Configuração
 O arquivo `.eslintrc.cjs` incluído oferece configurações como:
